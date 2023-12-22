@@ -33,7 +33,7 @@ def transform_text(text):
    text = [word for word in text if word not in stopwords.words('english') and word not in string.punctuation]
    text = [ps.stem(word) for word in text]
    return " ".join(text)
-    transformed_sms=transform_text(<input_sms>)
+transformed_sms=transform_text(<input_sms>)
 </pre>
 <p><b><h5>Step-3</h5></b> Result Generation </p>
 <pre lang="sh">
@@ -41,7 +41,7 @@ def transform_text(text):
     result = model.predict(vector_input)[0]
 </pre>
 
-<p><h5><b>step-4</b><h5> Showing Result</p>
+<p><b><h5>Step-4</h5>h5></b> Showing Result</p>
 <pre lan="sh">
   accuracy=model.accuracy_score(y_test,result)
   precision=model.precision_score(y_test,result)
