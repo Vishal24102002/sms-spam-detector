@@ -15,7 +15,7 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import string
 
-# reading binary file from the model and vectorizer
+#reading binary file from the model and vectorizer
 tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
 </pre>
