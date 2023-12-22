@@ -45,5 +45,8 @@ transformed_sms=transform_text(<input_sms>)
 <pre lan="sh">
   accuracy=model.accuracy_score(y_test,result)
   precision=model.precision_score(y_test,result)
-</pre>    
+</pre>  
+
+<b><h3> ScreenShots </h3></b>
+<b><h3>License</h3></b>
 
